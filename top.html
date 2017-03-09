@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>いろはと妖</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="jquery.leanModal.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+<div id="left_husuma"></div>
+<div id="right_husuma"></div>
+<div id="clear"></div>
+<div id="back">
+	<div id="main">
+    		<div id="leftWrap">
+        		<div id="space1"></div><!--空白を作るため-->
+            <div id="menu">
+           		<img src="img/hyosi_of.png" id="menu1" onMouseOver="this.src='img/hyosi_on.png'" onMouseOut="this.src='img/hyosi_of.png'">
+            </div>
+            <div id="menu">
+     			<img src="img/story_of.png" id="menu2" onMouseOver="this.src='img/story_on.png'" onMouseOut="this.src='img/story_of.png'">
+            </div>
+            <div id="menu">
+            	<img src="img/jinbutu_of.png" id="menu3" onMouseOver="this.src='img/jinbutu_on.png'" onMouseOut="this.src='img/jinbutu_of.png'">
+            </div>
+            <div id="menu">
+     			<img src="img/asobi_of.png" id="menu4" onMouseOver="this.src='img/asobi_on.png'" onMouseOut="this.src='img/asobi_of.png'">
+            </div>
+     	</div>
+        
+        	
+    		
+            <div id="rightWrap">
+            
+                <div id="top"><!--toppage-->
+    				<div id="words">
+                	<div id="word1"><img src="img/yokoso.png"></div>
+                	<div id="word2"><img src="img/omosiro.png"></div>
+                	<div id="word3"><img src="img/ayakasi.png"></div>
+               		<div id="clear"></div>
+                	<div id="rogo"><img src="img/rogo.png"></div>
+            	</div>
+            	<div id="top_image"><img src="img/topImg.png"></div>
+    			</div><!--top_end-->
+                
+                <div id="storyWrap"><!--story-->
+            		<a rel="leanModal" href="#window1">
+            			<div id="storyBox"><img src="img/ayakasi_btn_of.png" id="storyBtn1"></div>
+                	</a>
+                	<a rel="leanModal" href="#window2">
+                		<div id="storyBox"><img src="img/ryokan_of.png" id="storyBtn2"></div>
+                	</a>
+                	<a rel="leanModal" href="#window3">
+                 		<div id="storyBox"><img src="img/world_of.png" id="storyBtn3"></div>
+                	</a>
+            	</div><!--story_end-->
+            
+            
+            	<div id="chara"><!--chara-->
+        		<div id="charaBox">
+            		<div id="charaImg"></div>
+                	<div id="charaIndex">
+                		<div id="chara_midasi">いろは</div>
+                    	<p>
+                    	人の身でありがら陰陽を学び、妖に負けない力を持っている。そのため、妖のお目付け役として妖旅館の管理を任されている。幼いころから妖と触れ合って育ったため、妖に対する偏見がない。
+                   
+                    	</p>
+                	</div>
+            	</div>
+            	<div id="chara_menu">
+            		<h3 onmouseover="this.style.fontStyle='italic'" onmouseout="this.style.fontStyle='normal'" id="iroha">・いろは</h3>
+                	<h3 onmouseover="this.style.fontStyle='italic'" onmouseout="this.style.fontStyle='normal'" id="tengu">・天狗</h3>
+            	</div>
+            	<div id="chara_menu">
+            		<h3 onmouseover="this.style.fontStyle='italic'" onmouseout="this.style.fontStyle='normal'" id="komainu">・狛犬</h3>
+                	<h3 onmouseover="this.style.fontStyle='italic'" onmouseout="this.style.fontStyle='normal'" id="hitotume">・一つ目</h3>
+            	</div>
+            	<div id="chara_menu">
+            		<h3 onmouseover="this.style.fontStyle='italic'" onmouseout="this.style.fontStyle='normal'" id="rokurokubi">・ろくろ首</h3>
+                	<h3 onmouseover="this.style.fontStyle='italic'" onmouseout="this.style.fontStyle='normal'" id="kappa">・河童</h3>
+            	</div>
+             </div><!--chara_end-->            
+            
+            
+            <div id="game"><!--game-->
+        		<img src="img/yugiho.jpg" id="system_rog">
+           		<a rel="leanModal" href="#game_window1">
+           		<img src="img/hiru_of.png" id="hiru" onMouseOver="this.src='img/hiru_on.png'" onMouseOut="this.src='img/hiru_of.png'">
+            	</a>
+            	<a rel="leanModal" href="#game_window2">
+        		<img src="img/yoru_of.png" id="yoru" onMouseOver="this.src='img/yoru_on.png'" onMouseOut="this.src='img/yoru_of.png'">
+            	</a>
+            </div><!--game_end-->
+            
+            </div>
+            
+         
+         <!--window1-->
+         	<div id="window1">
+         		<div id="window">
+            		<div id="midasi">妖</div>
+                    <div id="modal_image"><img src="img/ayakasi_back.png"></div>
+                    <div id="modal_midasi">妖、あやかし</div>
+                    <h3>妖、それは異形なる者たち。</h3>
+                    <h3>人に恐れられ、恐怖の対象であった…のも昔の話</h3>
+                    <h3>今では人間に存在を認知され、人と共存している物も多い</h3>
+                    <h3>　</h3>
+                    <h3>友好的な者から好戦的な者まで、多種多様な者たちが存在する</h3>
+                    <h3>そのため、全ての妖が友好的とは言い切れない…</h3>
+            	</div>
+            </div>
+         <!--window1_end-->
+         
+         <!--window2-->
+         	<div id="window2">
+         		<div id="window">
+            		<div id="midasi">妖旅館</div>
+                    <div id="modal_image"><img src="img/ryokan_back.jpg"></div>
+                    <div id="modal_midasi">そこは異形の住まう場所</div>
+                    <h3>妖の出した、人と共存するための答え。</h3>
+                    <h3>妖怪たちが人々のために働き、旅館を経営しており</h3>
+                    <h3>今では江戸の町でも人気の旅館となりつつある</h3>
+                    <h3>　</h3>
+                    <h3>ここを訪れる者は、面白くさわがしき</h3>
+                    <h3>妖の世界を垣間見ることができるだろう</h3>
+            	</div>
+            </div>
+         <!--window2_end-->
+         
+         <!--window3-->
+         	<div id="window3">
+         		<div id="window">
+            		<div id="midasi">世界</div>
+                    <div id="modal_image"><img src="img/sekai_back.jpg"></div>
+                    <div id="modal_midasi">人と妖が共に生きる世界</div>
+                    <h3>人はかつて妖を恐れ、恐れを抱いていた…</h3>
+                    <h3>しかし今現在、共に存在を認め助け合うことでこの世界は成り立っている</h3>
+                    <h3>妖が働く妖旅館を始め、妖食堂なども存在し</h3>
+                    <h3>人と妖の間の境界は薄れている。</h3>
+                    <h3>　</h3>
+                    <h3>しかし一部では、互いに根深い差別が残っている…</h3>
+            	</div>
+            </div>
+         <!--window3_end-->
+    
+        
+        <div id="game_window1"><!--昼説明-->
+        	<div id="game_window">
+            	<img src="img/hiru_on.png" id="hiruBox" width="60" height="60">
+                <img src="img/yoru_of.png" id="yoruBox" width="40" height="40" style="margin-top:10px;">
+                <div id="clear"></div>
+                <p>昼間、あなたはあやかし屋敷の管理人として妖たちと旅館を経営します。<br>
+                日々起こるトラブルを解決しながら、妖たちと協力して<br>
+                旅館を訪ねてきた人々に<br>面白くさわがしい妖怪の世界を体験させてあげましょう！</p>
+                
+           		<div id="gameImgBox">
+                	<div id="gameImg"></div>
+                    <p>妖の行動はいつでも予想外！正しい対応を</p>
+                </div>
+                <div id="gameImgBox">
+                	<div id="gameImg"></div>
+                    <p>妖によって、得意な仕事が違うぞ！</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="game_window2"><!--夜説明-->
+        	<div id="game_window">
+            	<img src="img/hiru_on.png" id="hiruBox" width="40" height="40" style="margin-top:10px;">
+                <img src="img/yoru_of.png" id="yoruBox" width="60" height="60">
+                <div id="clear"></div>
+                <p>夜を妖が起こす問題を解決していきます<br>
+                妖の問題を解決し、妖全体の評価を上げることで、旅館に人が多く来ます！<br>
+                問題を起こしていた妖は<br>旅館で働いてくれる可能性も…</p>
+                
+           		<div id="gameImgBox">
+                	<div id="gameImg"></div>
+                    <p>妖の全てが人を認めているわけではない…</p>
+                </div>
+                <div id="gameImgBox">
+                	<div id="gameImg"></div>
+                    <p>戦いになることも！</p>
+                </div>
+            </div>
+        </div>
+           
+	</div>
+</div>
+</body>
+</html>

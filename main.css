@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+#left_husuma{ width:500px; height:700px; position:absolute; top:0px; float:left; z-index:5; background-image:url(img/husuma_left.jpg);}
+#right_husuma{ width:500px; height:700px; position:absolute; top:0px; float:right; z-index:5; background-image:url(img/husuma_right.jpg);}
+#back{ width:100%; height:100%; background-color:#5A5A5A; position:absolute; top:0px;}
+#main{ width:1000px; height:700px; margin: 0 auto; position:relative; background-image:url(img/back.png);}
+#main2{ width:1000px; height:700px; margin: 0 auto; position:relative; background-image:url(img/story_back.jpg); }
+#leftWrap{ width:250px; height:700px; float:left; }
+#rightWrap{ width:750px; height:700px; float:left; }
+#space1{ width:auto; height:40px; }
+#space2{ width:auto; height:20px; }
+#menu{ width:200px; height:142.5px; margin-left:50px; margin-top:10px;}
+#clear{ clear:both;}
+
+
+/*topPage*/
+#top{ display:none; }
+#words{ width:250px; margin: 30px 10px; float:left;}
+#word1{ width:80px; height:200px; margin-left:100px; display:none;}
+#word2{ width:130px; height:230px; margin:10px 0px; float:right; display:none;}
+#word3{ width:120px; height:200px; margin-top:-50px; float:left; display:none;}
+#rogo{ width:400px; height:180px; margin:0px 10px; position:relative; z-index:1; display:none;}
+#top_image{ width:250px; height:600px; margin-top:80px; margin-left:-50px; float:left; position:relative; z-index:0; display:none;}
+
+/*story*/
+#storyWrap{ width:674px; height:680px; margin:0px 37px; display:none; background-image:url(img/story_back2.jpg);}
+#storyBox{ width:200px; height:200px; margin:0px 12px; margin-top:500px; float:left;}
+
+/*modalwindow*/
+#lean_overlay{ position:fixed; z-index:100; top:0px; left:0px; height:100%; width:100%; background:#000; display:none;}
+#window{ width:600px; height:600px; position:relative; left:50px; opacity:50; background-color:#000000;}
+#midasi{ margin:10px 40px; font-size:xx-large; color:#FFFFFF;}
+#modal_image{ margin:0px 10px; width:580px; height:260px;}
+#modal_midasi{ margin:10px; font-size:36px; color:#FFFFFF}
+#window h3{color:#FFFFFF; margin-left:10px;}
+#window1{ display:none;}
+#window2{ display:none;}
+#window3{ display:none;}
+
+/*chara*/
+#chara{ display:none;}
+#charaBox{ width:710px; height:450px; margin:30px; margin-left:10px; background-color:#000000;}
+#charaImg{ width:430px; height:430px; margin:10px; float:left; background-image:url(img/iroha.jpg);}
+#charaIndex{ width:260px; height:450px; float:left;}
+#charaIndex p{line-height:35px;}
+#chara_midasi{ margin:10px; margin-bottom:30px; font-size:xx-large; color:#A5B8FF;}
+#charaIndex p{margin:10px; color:#FFFFFF; font-size:large;}
+#chara_menu{ margin:40px; float:left;}
+#chara_menu h3{ margin-left:50px;}
+
+/*game*/
+#game{ display:none}
+#system_rog{ margin:50px; 20px; }
+#hiru{ margin:50px; float:left;}
+#yoru{ margin:50px 10px; float:left;}
+#game_window{ width:600px; height:600px; position:relative; left:50px; background-image:url(img/game_back.png);}
+#game_window1{ display:none;}
+#game_window2{ display:none;}
+
+/*game_modalWindow*/
+#hiruBox{ margin:5px 20px; float:left;}
+#yoruBox{ margin:5px 20px; float:left;}
+#game_window p{ font-size:large; margin:10px; padding:10px; line-height:150%; background-color:#D1D1D1;}
+#gameImgBox{ width:230px; height:230px; margin:35px; float:left;}
+#gameImg{ width:230px; height:200px; background-image:url(img/game.jpg);}
+
